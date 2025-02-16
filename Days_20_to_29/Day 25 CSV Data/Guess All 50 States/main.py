@@ -30,8 +30,5 @@ while len(guessed_states) < 50:
         t.goto(state_data.x.item(), state_data.y.item())
         t.write(answer_state)
 
-#
-# missed_states = {
-#     "Missing States": missing_states
-# }
-# missed_states.to_csv("missed_states")
+missed_states = {"Missing States": missing_states}
+missed_states.to_csv("missed_states")
