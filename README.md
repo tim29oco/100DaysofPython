@@ -16,6 +16,6 @@ NOTE** Some Projects Are Over the Course of 2+ Days
 
 NOTE** Some Projects Are Completed on Third-Party Websites
 
-Last Reviewed and Updated: 2/13/2025
+Last Reviewed and Updated: 2/15/2025
 
 🚀 Links: https://www.udemy.com/course/100-days-of-code/
