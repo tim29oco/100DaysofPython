@@ -3,10 +3,10 @@ import smtplib
 import requests
 from datetime import datetime
 
-PASSWORD = '#### #### #### ####'
-EMAIL = '#########@gmail.com'
-MY_LAT = 40.786499 # Your latitude
-MY_LONG = -80.392097 # Your longitude
+PASSWORD = 'your_16_character_password_here'
+EMAIL = 'your_email_here'
+MY_LAT = your_lat_here # Your latitude
+MY_LONG = your_long_here # Your longitude
 
 
 def is_iss_overhead():
