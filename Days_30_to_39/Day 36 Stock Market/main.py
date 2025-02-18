@@ -11,11 +11,11 @@ COMPANY_NAME = "Tesla Inc"
 
 # Most likely will need parameters
 STOCK_ENDPOINT = 'https://www.alphavantage.co/query'
-STOCK_API_KEY = 'PBRCLAMUBQ12Z0LV'
-NEWS_API_KEY = 'a39fb4dcbb79441e9ebe0f5fe26d63aa'
+STOCK_API_KEY = 'your_stock_api_key_here'
+NEWS_API_KEY = 'your_news_api_key_here'
 LANGUAGE = 'en'
 NEWS_ENDPOINT = 'https://newsapi.org/v2/everything'
-HTTP_API = '7971886970:AAFe4xAZQGbIQJ1Vk6vN7N-iayrSFH-B2U0'
+HTTP_API = 'your_http_api_key_here'
 
 alphavantage_params = {
     "function":"TIME_SERIES_DAILY",
@@ -79,7 +79,7 @@ if abs(percent_difference) >= 5:
 
     async def main():
         bot = Bot(token=HTTP_API)
-        chat_id = 6363582616
+        chat_id = your_chat_id_key_here
         if percent_difference >= 0:
             symbol = '🔺'
         else:
