@@ -4,15 +4,15 @@ from telegram import Bot
 
 # OpenWeather and Telegram Bot API endpoints
 OWM_ENDPOINT = 'https://api.openweathermap.org/data/2.5/forecast'
-API_KEY = 'c704c94064589f02d0527a5b398ca050'
-HTTP_API = '7971886970:AAFe4xAZQGbIQJ1Vk6vN7N-iayrSFH-B2U0'
-CHAT_ID = 6363582616
+API_KEY = 'your_api_key_here'
+HTTP_API = 'your_bot_token_here'
+CHAT_ID = your_chat_id_here
 
 
 # Set location and forecast count
 weather_params = {
-    "lat": 40.7879,
-    "lon": 74.3882,
+    "lat": your_lat_here,
+    "lon": your_long_here,
     "appid": API_KEY,
     "cnt": 4
 }
@@ -36,7 +36,7 @@ message = "Take an umbrella! 🌧️ It's going to rain." if will_rain else "No 
 
 async def main():
     bot = Bot(token=HTTP_API)
-    chat_id = 6363582616
+    chat_id = your_chad_id_here
 
     # Send the message
     await bot.send_message(chat_id=chat_id, text=message)
